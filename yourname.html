@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Grid</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="anime/yn01.jpg" style="width:100%">
+  <img src="anime/yn02.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="anime/yn04.webp" style="width:100%">
+    <img src="anime/yn06.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="anime/yn08.jpg" style="width:100%">
+    <img src="anime/yn09.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="anime/yn11.jpg" style="width:100%">
+    <img src="anime/yn12.png" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>

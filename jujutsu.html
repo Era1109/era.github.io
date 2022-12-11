@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Grid</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="anime/jk01.webp" style="width:100%">
+  <img src="anime/jk02.webp" style="width:100%">
+  <img src="anime/jk03.webp" style="width:100%">
+  <img src="anime/jk04.webp" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="anime/jk05.webp" style="width:100%">
+    <img src="anime/jk06.webp" style="width:100%">
+    <img src="anime/jk07.webp" style="width:100%">
+    <img src="anime/jk08.webp" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="anime/jk09.webp" style="width:100%">
+    <img src="anime/jk10.webp" style="width:100%">
+    <img src="anime/jk11.webp" style="width:100%">
+    <img src="anime/jk12.webp" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="anime/jk13.webp" style="width:100%">
+    <img src="anime/jk14.webp" style="width:100%">
+    <img src="anime/jk15.webp" style="width:100%">
+    <img src="anime/jk16.webp" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
