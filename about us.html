@@ -6,10 +6,24 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  text-align:center;
 }
 
 html {
   box-sizing: border-box;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
 
 *, *:before, *:after {
@@ -18,21 +32,22 @@ html {
 
 .column {
   float: left;
-  width: 20%;
+  width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(199, 44, 70, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #99333c;
-  color: rgb(252, 249, 249);
+  background-color: pink;
+  color: white;
+  text-align:center;
 }
 
 .container {
@@ -46,7 +61,7 @@ html {
 }
 
 .title {
-  color: rgb(143, 103, 103);
+  color: grey;
 }
 
 .button {
@@ -54,8 +69,8 @@ html {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: rgb(216, 189, 189);
-  background-color: rgb(136, 64, 64);
+  color: white;
+  background-color: pink;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -63,13 +78,6 @@ html {
 
 .button:hover {
   background-color: #555;
-  font-family: cursive;
-  opacity: 0.8;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
 }
 
 @media screen and (max-width: 650px) {
@@ -84,19 +92,34 @@ html {
 
 <div class="about-section">
   <h1>About Me</h1>
-  <p>AnimeFlix</p>
-  <p>my Anime streaming website</p>
+  <h2 style="text-decoration-line: underline; text-decoration-style: wavy; text-decoration-thickness: 3px; ">Hey There It's Fareha Rahman Era.</h2>
+  <p style="text-align: justify; margin: 60px;">This is basically a HTML website that shows my affection to anime. It's Home page Features those anime which I've already Watched. And Some of them are which I wanted to watch in near future. The main cause I love watching anime is. Anime is filled with storylines that will draw you in and keep you guessing. There are some scenes that will disturb you as much as any horror movie you have ever seen and there are other scenes that will make you weep for hours.Even though you aren’t watching real people, you will experience real emotions.</p>
 </div>
 
-<h2 style="text-align:center">Era</h2>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column" >
+    <div class="card">
+      <div class="container">
+      </div>
+    </div>
+  </div>
+
   <div class="column">
     <div class="card">
-      <img src="C:\Users\Hp\Pictures\Saved Pictures\Animeflix-main\img\images (2).jpg" alt="Jane" style="width:100%">
+      <img src="img\images (2).jpg" alt="Mike" style="width:100%">
       <div class="container">
         <h2>Fareha Rahman Era</h2>
-        <p class="title">Satisfier</p>
-        <p>farehaera5181@gmail.com</p>
-        <p><button class="button">Contact</button></p>
+        <p class="title">Creator</p>
+        <p>First semister student of AIUB on CSE.</p>
+        <a href="mailto:farehaera5181@gmail.com" target="_blank">Contract Me</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
       </div>
     </div>
   </div>
